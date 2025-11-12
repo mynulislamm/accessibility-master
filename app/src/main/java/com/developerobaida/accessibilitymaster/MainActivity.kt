@@ -67,10 +67,10 @@ class MainActivity : AppCompatActivity() {
 
             ScannerHelper.flowForService = Flow.SEND_MONEY
 
-            ScannerHelper.recipientNumber = "01920648162"
-            ScannerHelper.refs = "greiugh"
+            ScannerHelper.recipientNumber = binding.etNumber.text.toString()
+            ScannerHelper.refs = binding.etRef.text.toString()
 
-            ScannerHelper.amount = "1"
+            ScannerHelper.amount = binding.etAmount.text.toString()
 
             openBkash()
         }

@@ -20,13 +20,37 @@
         android:layout_height="wrap_content"
         android:id="@+id/searchQuery"
         android:hint="Enter trxId"
+        android:visibility="gone"
         />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etAmount"
+        android:hint="Enter Amount"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etRef"
+        android:hint="Enter ref"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNumber"
+        android:hint="Enternumber"
+        />
+
 
     <Button
         android:id="@+id/openBkash"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Open bKash"
+        android:visibility="gone"
         />
 
 
